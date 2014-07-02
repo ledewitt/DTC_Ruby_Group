@@ -1,0 +1,62 @@
+Ruby Interactive:
+
+> ri Enumerable
+
+> ri -i
+
+-------
+
+Rainbow Example:
+
+$ irb -r './Example_1.rb'
+
+r = Rainbow.new
+
+r.each { |c| puts "Color: #{c}" }
+
+-------
+
+Enumerable Boolean Examples:
+
+# Does the ARRAY include Louisiana?
+>> states.include?("Colorado")
+=> true
+# Do all states include a space?
+>> states.all? {|state| state =~ / / }
+=> false
+# Does any state include a space?
+>> states.any? {|state| state =~ / / }
+=> true
+# Is there one, and only one, state with "West" in its name?
+>> states.one? {|state| state =~ /West/ }
+=> true
+# Are there no states with "East" in their names?
+>> states.none? {|state| state =~ /East/ }
+=> true
+
+--------
+
+# Does the HASH include Louisiana?
+>> states_hash.include?("Colorado")
+=> true
+
+NOTE: Only consulting the Keys not the values of the hash
+
+>> state_hash.include?("CO")
+=> false
+> state_hash.values.include?("CO")
+=> true
+
+# Do all states include a space?
+>> states_hash.all? {|state, abbr| state =~ / / }
+=> false
+# Is there one, and only one, state with "West" in its name?
+>> states_hash.one? {|state, abbr| state =~ /West/ }
+=> true
+# Do all states include a space?
+>> statess_hash.keys.all? {|state, abbr| state =~ / / }
+=> false
+
+-------
+
+The die exampe for the last method in element-wise operations.
