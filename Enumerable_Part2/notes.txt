@@ -1,0 +1,10 @@
+Ruby's Way
+
+In other languages, collections don’t contain their own iterators.
+
+Instead, they implement methods that generate external helper objects (for example, those based on Java’s Iterator interface) that carry the iterator state.  
+
+In this, as in many other ways, Ruby is a transparent
+language.
+
+When you write a Ruby program, you concentrate on getting the job done, not on building scaffolding to support the language itself.
