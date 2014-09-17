@@ -8,7 +8,7 @@
 
 ---
 
-# Topics covered
+# **Topics Covered**
 
 * Enumerable vs Enumerator
 * Ruby's Way of Enumerating
@@ -18,7 +18,7 @@
 
 # Enumerable vs Enumerator
 
-* Enumerable is a module
+* Enumerable is a Module
   * Provides a Namespace
   * Implements Mixins
 
@@ -73,7 +73,7 @@ StopIteration: iteration reached an end
 
 ---
 
-How Enumerator is used by Enumerable (One of the Ways)
+How Enumerator is used by Enumerable<sub>(One of Many Ways)</sub>
 
 An Array is Enumerable -
 
