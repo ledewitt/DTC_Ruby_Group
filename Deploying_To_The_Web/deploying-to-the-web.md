@@ -158,6 +158,27 @@ $ pwd
 
 - Shut down your rails server if it is still running (Ctrl-c), and restart it.
 
+- Again with your favorite browswer.
+
 ### http://localhost:3000/
 
 ![right 80%](hello-page.png)
+
+---
+
+## First step "hello, DTC Ruby Group."
+
+The tutorial here goes through setting up a git repository.
+
+It then pushes the git repository up to Bit Bucket.
+
+For the sake of time in the presentation I have choosen to skip this step.
+
+Git is an open source vesion control tool and would be a great topic for another talk.
+
+---
+
+## Second step deploy "hello, DTC Ruby Group."
+
+
+
