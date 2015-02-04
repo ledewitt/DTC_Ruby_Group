@@ -180,5 +180,67 @@ Git is an open source vesion control tool and would be a great topic for another
 
 ## Second step deploy "hello, DTC Ruby Group."
 
+- Need to add a couple of lines to the gemfile.
 
+![inline 100%](Gemfile-Heroku-Changes.png)
 
+- The production flag here means that it will run in the production environment and it is needed by Heroku.
+  -- Gem pg is PostgreSQL with Heroku uses.
+  -- Gem rails_12factor is also used by Heroku.
+
+---
+
+## Second step deploy "hello, DTC Ruby Group."
+
+- Update the Gemfile.lock by running
+
+     ```$ bundle install --without production```
+
+- Set up a Heroku account at 
+      [https://heroku.com/](https://heroku.com/)
+
+- Download and install the Heroku Toolbelt at 
+      [https://toolbelt.heroku.com/](https://toolbelt.heroku.com/)
+
+---
+
+## Second step deploy "hello, DTC Ruby Group."
+
+- Login into heroku with the following command
+
+     ```$ heroku login```
+
+- Use the credentials that you used for creation.
+
+---
+
+## Second step deploy "hello, DTC Ruby Group."
+
+- Create a new application at Heroku
+
+     ```$ heroku create```
+
+- Make a note of the web address that was created with this command
+
+     [https://arcane-atoll-8861.herokuapp.com/](https://arcane-atoll-8861.herokuapp.com/)
+
+---
+
+## Second step deploy "hello, DTC Ruby Group."
+
+- Push your repository up to Heroku
+
+     ```$ git push heroku master```
+
+- Open a browser and point it at the created web address
+
+- Hey look a page published to the web!
+
+![right 80%](heroku-page.png)
+
+---
+
+# References
+
+* Michael Hartl 
+     * [https://www.railstutorial.org/book/beginnin](https://www.railstutorial.org/book/beginning)
