@@ -158,7 +158,7 @@ $ pwd
 
 - Shut down your rails server if it is still running (Ctrl-c), and restart it.
 
-- Again with your favorite browswer.
+- Again with your favorite browser.
 
 ### http://localhost:3000/
 
@@ -172,9 +172,9 @@ The tutorial here goes through setting up a git repository.
 
 It then pushes the git repository up to Bit Bucket.
 
-For the sake of time in the presentation I have choosen to skip this step.
+For the sake of time in the presentation I have chosen to skip this step.
 
-Git is an open source vesion control tool and would be a great topic for another talk.
+Git is an open source version control tool and would be a great topic for another talk.
 
 ---
 
