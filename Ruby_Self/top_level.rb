@@ -1,0 +1,2 @@
+m = self
+puts self
